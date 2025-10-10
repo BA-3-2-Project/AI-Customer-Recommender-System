@@ -1,0 +1,10 @@
+pandas
+numpy
+openpyxl
+scikit-learn
+scipy
+tensorflow
+matplotlib
+seaborn
+pickle-mixin
+
