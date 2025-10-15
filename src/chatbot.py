@@ -41,3 +41,4 @@ def launch_chatbot():
             recommendations = recommend_items(customer_id, user_item_matrix, similarity_matrix)
             print(f"🎯 Recommended items for customer {customer_id}: {recommendations}")
         except ValueError:
+            print("Invalid input. Please enter a numeric Customer ID.")
